@@ -16,10 +16,10 @@ public enum Rank implements Displayable
     SENIOR_CONSOLE("the", "Console", Type.ADMIN_CONSOLE, "Console", ChatColor.DARK_PURPLE),
     SYS_ADMIN("a", "Syetem Admin", Type.ADMIN, "Sys-Admin", ChatColor.DARK_RED),
     DEVELOPER("a", "Developer", Type.ADMIN, "Dev", ChatColor.DARK_PURPLE),
-    LEAD_DEVELOPER("the", "Lead Developer", Type.ADMIN, "Lead-Dev", ChatColor.DARK_PURPLE),
     CO_OWNER("the", "Co Owner", Type.ADMIN, "Co-Owner", ChatColor.DARK_RED),
     CO_FOUNDER("the", "Co Founder", Type.ADMIN, "Co-Founder", ChatColor.DARK_RED),
     OWNER_FOUNDER("the", "Owner and Founder", Type.ADMIN, "Owner", ChatColor.BLUE);
+    SPECIALIST("a", "Specialist", Type.ADMIn, "Specialist", ChatColor.GREEN),
     
     
     @Getter
