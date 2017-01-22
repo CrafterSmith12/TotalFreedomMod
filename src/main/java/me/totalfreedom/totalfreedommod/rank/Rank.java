@@ -19,7 +19,7 @@ public enum Rank implements Displayable
     CO_OWNER("the", "Co Owner", Type.ADMIN, "Co-Owner", ChatColor.DARK_RED),
     CO_FOUNDER("the", "Co Founder", Type.ADMIN, "Co-Founder", ChatColor.DARK_RED),
     OWNER_FOUNDER("the", "Owner and Founder", Type.ADMIN, "Owner", ChatColor.BLUE);
-    SPECIALIST("a", "Specialist", Type.ADMIn, "Specialist", ChatColor.GREEN),
+    SPECIALIST("a", "Specialist", Type.ADMIN, "Specialist", ChatColor.GREEN),
     
     
     @Getter
